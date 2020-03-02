@@ -5,12 +5,15 @@ Single JS file integration for Mogi Video Analytics
 
 Add following script in your file after “videojs”. Like :
 
-<script src="https://analyticsonly.mogiio.com/fingerprint.js"> </script>
+
+    <script src="https://analyticsonly.mogiio.com/fingerprint.js"> </script>
 
 
 Call below function and pass the parameter. 
 
-Fingerprint2.analytics(VideoElementId, AppId, UserId);
+
+    Fingerprint2.analytics(VideoElementId, AppId, UserId);
+
 
 Required params : 
 
